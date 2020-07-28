@@ -1,20 +1,20 @@
 {
     "addPeople": {
-        "add": "",
-        "countryNotSupported": "",
+        "add": "دعوت",
+        "countryNotSupported": "ما هنوز این مقصد را پشتیبانی نمی‌کنیم",
         "countryReminder": "",
-        "disabled": "",
-        "failedToAdd": "",
+        "disabled": "شما نمی‌توانید کسی را دعوت کنید",
+        "failedToAdd": "اضافه کردن اعضای جدید با خطا مواجه شد",
         "footerText": "",
-        "loading": "",
+        "loading": "درحال جستجوی افراد و شماره تلفن‌ها",
         "loadingNumber": "اعتبار سنجی شماره تلفن",
         "loadingPeople": "جستجوی افراد برای دعوت",
-        "noResults": "",
+        "noResults": "موردی پیدا نشد",
         "noValidNumbers": "لطفاً یک شماره تلفن وارد کنید",
-        "searchNumbers": "اضافه کردن شماره تلفن ها",
+        "searchNumbers": "اضافه کردن شماره تلفن‌ها",
         "searchPeople": "جستجوی افراد",
         "searchPeopleAndNumbers": "جستجوی افراد یا اضافه کردن شماره تلفن آن ها",
-        "telephone": "",
+        "telephone": "تلفن: {{number}}",
         "title": "دعوت افراد به این جلسه"
     },
     "audioDevices": {
@@ -25,7 +25,7 @@
         "none": "هیچ دستگاه صوتی در دسترس نیست"
     },
     "audioOnly": {
-        "audioOnly": "پهنای باند پایین"
+        "audioOnly": "فقط صدا"
     },
     "calendarSync": {
         "addMeetingURL": "افزودن پیوند جلسه",
@@ -35,20 +35,20 @@
             "generic": "",
             "notSignedIn": ""
         },
-        "join": "",
-        "joinTooltip": "",
-        "nextMeeting": "",
+        "join": "پیوستن",
+        "joinTooltip": "به جلسه بپیوندید",
+        "nextMeeting": "جلسه بعدی",
         "noEvents": "",
-        "ongoingMeeting": "",
-        "permissionButton": "",
-        "permissionMessage": "",
-        "refresh": "",
-        "today": ""
+        "ongoingMeeting": "جلسه درحال اجرا",
+        "permissionButton": "بازکردن تنظیمات",
+        "permissionMessage": "مجوز دسترسی به تقویم برای دیدم جلسات داخل برنامه لازم است",
+        "refresh": "تازه کردن تقویم",
+        "today": "امروز"
     },
     "chat": {
-        "error": "",
+        "error": "خطا: پیام به دلیل {{error}} ارسال نشد",
         "fieldPlaceHolder": "",
-        "messagebox": "",
+        "messagebox": "یک پیام بنویسید",
         "messageTo": "",
         "noMessagesMessage": "",
         "nickname": {
@@ -60,38 +60,38 @@
         "you": ""
     },
     "connectingOverlay": {
-        "joiningRoom": ""
+        "joiningRoom": "درحال پیوستن به جلسه..."
     },
     "connection": {
         "ATTACHED": "",
         "AUTHENTICATING": "احراز هویت",
-        "AUTHFAIL": "",
-        "CONNECTED": "",
-        "CONNECTING": "",
-        "CONNFAIL": "",
-        "DISCONNECTED": "",
-        "DISCONNECTING": "",
-        "ERROR": "",
-        "RECONNECTING": ""
+        "AUTHFAIL": "احراز هویت انجام نشد",
+        "CONNECTED": "ارتباط برقرار شد",
+        "CONNECTING": "درحال برقراری ارتباط",
+        "CONNFAIL": "خطا در ارتباط",
+        "DISCONNECTED": "ارتباط قطع شد",
+        "DISCONNECTING": "درحال قطع ارتباط",
+        "ERROR": "خطا",
+        "RECONNECTING": "خطای شبکه. تلاش دوباره برای برقراری ارتباط... "
     },
     "connectionindicator": {
-        "address": "",
-        "bandwidth": "",
-        "bitrate": "",
+        "address": "آدرس:",
+        "bandwidth": "پهنای باند تخمینی:",
+        "bitrate": "بیتریت:",
         "bridgeCount": "",
-        "connectedTo": "",
+        "connectedTo": "متصل شده به:",
         "framerate": "",
-        "less": "",
-        "localaddress": "",
-        "localport": "",
-        "more": "",
+        "less": "نمایش کمتر:",
+        "localaddress": "آدرس محلی:",
+        "localport": "پورت محلی:",
+        "more": "نمایش بیشتر",
         "packetloss": "",
         "quality": {
-            "good": "",
-            "inactive": "",
-            "lost": "",
-            "nonoptimal": "",
-            "poor": ""
+            "good": "خوب",
+            "inactive": "غیرفعال",
+            "lost": "گم شده",
+            "nonoptimal": "نامطلوب",
+            "poor": "ضعیف"
         },
         "remoteaddress": "",
         "remoteport": "",
@@ -100,64 +100,64 @@
         "transport": ""
     },
     "dateUtils": {
-        "earlier": "",
-        "today": "",
-        "yesterday": ""
+        "earlier": "قبل‌تر",
+        "today": "امروز",
+        "yesterday": "دیروز"
     },
     "deepLinking": {
-        "appNotInstalled": "",
-        "description": "",
+        "appNotInstalled": "برای عضویت در این جلسه به برنامه {{app}} احتیاج دارید",
+        "description": "اتفاقی نیوفتاد؟ تلاش کردیم تا با استفاده از برنامه دسکتاپ {{app}} جلسه شما را راه اندازی کنیم. یا دوباره تلاش کنید، یا با استفاده از برنامه داخل مرورگر {{app}} جلسه را اجرا کنید ",
         "descriptionWithoutWeb": "",
-        "downloadApp": "",
-        "launchWebButton": "",
+        "downloadApp": "دریافت برنامه",
+        "launchWebButton": "اجرا در مرورگر",
         "openApp": "",
-        "title": "",
+        "title": "درحال راه‌اندازی جلسه در {{app}}...",
         "tryAgainButton": ""
     },
     "defaultLink": "مثال__{{url}}",
     "defaultNickname": "برای مثال مجید مجیدی",
     "deviceError": {
-        "cameraError": "",
-        "cameraPermission": "",
-        "microphoneError": "",
-        "microphonePermission": ""
+        "cameraError": "عدم موفقیت در دسترسی به دوربین",
+        "cameraPermission": "خطا در گرفتن اجازه دسترسی به دوربین",
+        "microphoneError": "عدم موفقیت در دسترسی به میکروفون",
+        "microphonePermission": "خطا در گرفتن اجازه دسترسی به میکروفون"
     },
     "deviceSelection": {
-        "noPermission": "",
-        "previewUnavailable": "",
-        "selectADevice": "",
-        "testAudio": ""
+        "noPermission": "دسترسی داده نشد",
+        "previewUnavailable": "پیش‌نمایش موجود نیست",
+        "selectADevice": "انتخاب دستگاه",
+        "testAudio": "پخش تست صدا"
     },
     "dialog": {
         "accessibilityLabel": {
-            "liveStreaming": ""
+            "liveStreaming": "پخش زنده"
         },
-        "allow": "",
-        "alreadySharedVideoMsg": "",
-        "alreadySharedVideoTitle": "",
-        "applicationWindow": "",
-        "Back": "",
+        "allow": "صدور اجازه",
+        "alreadySharedVideoMsg": "یک عضو دیگر درحال اشتراک ویدیو است. تنها امکان پخش یک ویدیو در لحظه در این جلسه وجود دارد.",
+        "alreadySharedVideoTitle": "تنها امکان پخش یک ویدیو در لحظه وجود دارد",
+        "applicationWindow": "پنجره برنامه",
+        "Back": "بازگشت",
         "cameraConstraintFailedError": "",
-        "cameraNotFoundError": "",
+        "cameraNotFoundError": "دوربین پیدا نشد",
         "cameraNotSendingData": "",
-        "cameraNotSendingDataTitle": "",
+        "cameraNotSendingDataTitle": "عدم امکان دسترسی به دوربین",
         "cameraPermissionDeniedError": "",
-        "cameraUnknownError": "",
+        "cameraUnknownError": "به دلیل نامشخصی استفاده از دوربین ممکن نیست.",
         "cameraUnsupportedResolutionError": "",
-        "Cancel": "",
-        "close": "",
+        "Cancel": "لغو",
+        "close": "بستن",
         "conferenceDisconnectMsg": "",
         "conferenceDisconnectTitle": "",
         "conferenceReloadMsg": "",
         "conferenceReloadTitle": "",
-        "confirm": "",
-        "confirmNo": "",
-        "confirmYes": "",
+        "confirm": "تایید",
+        "confirmNo": "خیر",
+        "confirmYes": "بله",
         "connectError": "",
         "connectErrorWithMsg": "",
         "connecting": "",
         "contactSupport": "",
-        "copy": "",
+        "copy": "کپی",
         "dismiss": "",
         "displayNameRequired": "",
         "done": "",
